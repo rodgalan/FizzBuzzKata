@@ -39,8 +39,21 @@ public class FizzBuzzTest {
   }
 
   @Test
+  public void should_return_Buzz_when_number_has_a_5_on_it() {
+    String response = fizzBuzz.applyRule(52);
+    assertEquals("Buzz", response);
+  }
+
+
+  @Test
   public void should_return_FizzBuzz_when_number_is_divisible_by_5_and_3() {
     String response = fizzBuzz.applyRule(15);
+    assertEquals("FizzBuzz", response);
+  }
+
+  @Test
+  public void should_return_FizzBuzz_when_number_is_divisible_by_5_and_has_a_3_on_it() {
+    String response = fizzBuzz.applyRule(35);
     assertEquals("FizzBuzz", response);
   }
 }
