@@ -18,4 +18,12 @@ Write a method that receives a number and returns the same number or:
 
 Introduce the concepts of TDD and BabySteps.
 
+## To be considered
+
+This simple kata don't use gradle/maven or other tool like this.
+I have been developing with InteliJ, but no IDE files are pushed on this repo.
+Developed with:
+   - Java 8
+   - JUnit 4
+
 
