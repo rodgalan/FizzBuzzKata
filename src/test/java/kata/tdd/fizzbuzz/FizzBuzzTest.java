@@ -25,4 +25,11 @@ public class FizzBuzzTest {
     String response = fizzBuzz.applyRule(3);
     assertEquals("Fizz", response);
   }
+
+  @Test
+  public void should_return_Buzz_when_number_is_divisible_by_5() {
+    String response = fizzBuzz.applyRule(5);
+    assertEquals("Buzz", response);
+  }
+
 }
